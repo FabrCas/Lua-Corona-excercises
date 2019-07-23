@@ -1,3 +1,79 @@
+
+# Created by https://www.gitignore.io/api/lua,games,images
+# Edit at https://www.gitignore.io/?templates=lua,games,images
+
+### Games ###
+*.gam
+*.nes
+*.rom
+*.sav
+
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# Portable Document Format
+*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
+
+### Lua ###
 # Compiled Lua sources
 luac.out
 
@@ -39,3 +115,5 @@ luac.out
 *.x86_64
 *.hex
 
+
+# End of https://www.gitignore.io/api/lua,games,images
