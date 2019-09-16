@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project lastOpen="../../../Desktop/livello.ldx" exportTemplate="Corona_templateX.lua" exportFolder="levels">
+ <level name="livello" fileName="../../../Desktop/livello.ldx" open="1" scale="1" scrollX="0" scrollY="-16" layer="2"/>
+</project>

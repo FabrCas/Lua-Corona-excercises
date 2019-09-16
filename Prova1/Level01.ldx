@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="2.0" drawmode="0" width="320" height="480" gridwidth="16" gridheight="16" lastasset="" target="0" backgroundcolor="4284900966" gravityX="0" gravityY="9.8" parallaxenabled="0" parallaxinfinite="0" parallaxdamping="1" name="Level01">
+ <assets firstgid="1" name="131340583-267f9f6d-ba15-42f2-968c-f0c52eb35679" width="600" height="402">
+  <image source="../../../Pictures/Saved Pictures/131340583-267f9f6d-ba15-42f2-968c-f0c52eb35679.jpg" width="600" height="402"/>
+  <asset frame="0" name="131340583-267f9f6d-ba15-42f2-968c-f0c52eb35679_0" spritename="" class="" export="1" x="0" y="0" w="600" h="402">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="2" name="cannon ball" width="276" height="278">
+  <image source="../../../Downloads/cannon ball.png" width="276" height="278"/>
+  <asset frame="0" name="cannon ball_0" spritename="" class="" export="1" x="0" y="0" w="276" h="278">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Layer 1" gridX="16" gridY="16">
+  <object uid="{54dfa61d-7020-4b4e-8f65-de5a15ac797c}" shape="6" name="131340583-267f9f6d-ba15-42f2-968c-f0c52eb35679_0" alpha="1" blendMode="0" idx="1" spriteName="" x="-5.68434e-14" y="64" width="320" height="352" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{1b84f1fe-445b-4efa-ae9b-a25cfa2ae445}" shape="6" name="cannon ball_0" alpha="1" blendMode="0" idx="2" spriteName="" x="0" y="0" width="320" height="64" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{4e341a32-d860-4ec8-a133-b0e251650e2d}" shape="6" name="cannon ball_3" alpha="1" blendMode="0" idx="2" spriteName="" x="0" y="416" width="320" height="64" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>

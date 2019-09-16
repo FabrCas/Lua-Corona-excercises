@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="2.0" drawmode="0" width="640" height="960" gridwidth="16" gridheight="16" lastasset="" target="0" backgroundcolor="4284900966" gravityX="0" gravityY="9.8" parallaxenabled="0" parallaxinfinite="0" parallaxdamping="1" name="Level01">
+ <assets firstgid="1" name="bg" width="413" height="606">
+  <image source="../../../Desktop/Utilities progetto/assets base/bg.jpg" width="413" height="606"/>
+  <asset frame="0" name="bg_0" spritename="" class="" export="1" x="0" y="0" w="413" h="606">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="2" name="blackball" width="90" height="90">
+  <image source="../../../Desktop/Utilities progetto/assets base/blackball.png" width="90" height="90"/>
+  <asset frame="0" name="blackball_0" spritename="" class="" export="1" x="0" y="0" w="90" h="90">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Layer 1" gridX="16" gridY="16">
+  <object uid="{50f8fd04-3427-4069-bcd7-507efdd2d572}" shape="6" name="bg_0" alpha="1" blendMode="0" idx="1" spriteName="" x="0" y="0" width="640" height="960" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{9aa29e90-c99d-46b9-a1c6-171efbbe7fc0}" shape="6" name="blackball_0" alpha="1" blendMode="0" idx="2" spriteName="" x="64" y="80" width="496" height="432" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>
