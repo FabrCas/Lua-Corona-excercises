@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project lastOpen="levels/level01.ldx" exportTemplate="Corona_templateX.lua" exportFolder="levels">
+ <level name="level01" fileName="levels/level01.ldx" open="1" scale="1" scrollX="-128" scrollY="-125" layer="3"/>
+ <level name="title" fileName="levels/title.ldx" open="1" scale="1" scrollX="0" scrollY="-128" layer="0"/>
+ <properties>
+  <property name="Enemy" value=""/>
+  <property name="Player" value=""/>
+ </properties>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:535a5892e4f5300f9ebc918a0386e035:031e8f6428b9cfedae3de22387dcddeb:da250a649b1dc69a4d43b774483c964e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="ms1_chopperl.png" width="329" height="64">
+    <sprite n="ms1_chop1.png" x="1" y="1" w="86" h="62" pX="0.5" pY="0.5" oX="5" oY="0" oW="93" oH="62"/>
+    <sprite n="ms1_chop2.png" x="89" y="1" w="84" h="61" pX="0.5" pY="0.5" oX="5" oY="1" oW="89" oH="63"/>
+    <sprite n="ms1_chop3.png" x="250" y="1" w="78" h="60" pX="0.5" pY="0.5" oX="3" oY="0" oW="81" oH="60"/>
+    <sprite n="ms1_chop4.png" x="175" y="1" w="73" h="61" pX="0.5" pY="0.5" oX="3" oY="2" oW="78" oH="63"/>
+</TextureAtlas>

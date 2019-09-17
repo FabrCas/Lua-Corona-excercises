@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="1.0" drawmode="0" width="640" height="960" gridwidth="16" gridheight="16" lastasset="" target="0" backgroundcolor="4286611584" gravityX="0" gravityY="9.8" parallaxenabled="0" parallaxinfinite="0" name="Level01">
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Layer1" gridX="16" gridY="16">
+  <object uid="{fff96efc-eeba-44fb-88f9-fed0dedae37b}" shape="3" name="left_eye" alpha="1" blendMode="0" x="96" y="176" width="160" height="160" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{440df02f-3b4e-41ad-a884-ce77cad31bbc}" shape="1" name="lips" alpha="1" blendMode="0" x="320" y="496" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polygon points="0,0 256,96 256,144 0,240 -256,144 -256,96"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{56af29d7-0dc1-4da2-811d-f7c9009bc266}" shape="5" name="text" type="0" alpha="1" blendMode="0" x="13" y="920" width="519" height="40" anchorX="0" anchorY="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" text="Level Director X - Vector Example" shadowcolor="4294967295" highlightcolor="4294967295" overfillcolor="0" overstrokecolor="0">
+   <font family="Arial Black" size="23"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{8022f692-144f-41a8-a374-c919ef0592a6}" shape="3" name="right_eye" alpha="1" blendMode="0" x="384" y="176" width="160" height="160" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{cf1422ce-565f-434d-88b4-1bfef3ff58b5}" shape="0" name="nose" alpha="1" blendMode="0" x="304" y="368" width="32" height="96" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{cd07a802-dd92-4d10-854c-eafde7dda4b1}" shape="2" name="pout" alpha="1" blendMode="0" x="64" y="608" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="0,0 512,0 512,16 0,16"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{9bf1abde-d439-4f71-967f-96f699b41c80}" shape="3" name="left_eyeball" alpha="1" blendMode="0" x="160" y="240" width="32" height="32" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="4294967295" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{62f4e34a-cfd9-4e3a-8989-c819bc56fcf4}" shape="3" name="right_eyeball" alpha="1" blendMode="0" x="448" y="240" width="32" height="32" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="4294967295" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{bbdafe8d-dd58-47b3-96ee-aa81b897973c}" shape="2" name="right_eyebrow" alpha="1" blendMode="0" x="368" y="176" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="0,0 48,-48 176,-48"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{b0add5bb-9438-449c-a7a6-0749d3acb8bb}" shape="2" name="left_eyebrow" alpha="1" blendMode="0" x="256" y="176" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="0,0 -48,-48 -160,-48"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>

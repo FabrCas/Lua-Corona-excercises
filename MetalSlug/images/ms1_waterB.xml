@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:5d361f25f259a01db82e51774f1aa666:de03f6d5d88acfaba3cbaf72a07ad394:e2ed98321d33e29c9a82c55d332e03ca$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="ms1_waterB.png" width="432" height="1644">
+    <sprite n="slice26_26.png" x="1" y="1" w="430" h="272" pX="0.5" pY="0.5"/>
+    <sprite n="slice28_28.png" x="1" y="1097" w="429" h="272" pX="0.5" pY="0.5"/>
+    <sprite n="slice29_29.png" x="1" y="275" w="430" h="272" pX="0.5" pY="0.5"/>
+    <sprite n="slice31_31.png" x="1" y="549" w="430" h="272" pX="0.5" pY="0.5"/>
+    <sprite n="slice32_32.png" x="1" y="823" w="430" h="272" pX="0.5" pY="0.5"/>
+    <sprite n="slice33_33.png" x="1" y="1371" w="429" h="272" pX="0.5" pY="0.5"/>
+</TextureAtlas>

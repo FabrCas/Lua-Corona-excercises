@@ -1,0 +1,4 @@
+<b>Basic Vectors</b>
+<br>A simple example showing the use of vector shapes.
+<br><br>
+<img src="%PATH%image.png" >

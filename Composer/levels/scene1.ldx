@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="1.0" drawmode="2" width="640" height="960" gridwidth="32" gridheight="32" lastasset="" target="0" backgroundcolor="4286743170" gravityX="0" gravityY="9.8" name="scene1_view">
+ <properties>
+  <property name="Enemy" value=""/>
+ </properties>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="main" showBodies="1" gridX="32" gridY="32">
+  <object uid="{0b982292-c5f6-4e1f-b45c-2d1000db319f}" shape="7" name="btnNext" alpha="1" blendMode="0" x="128" y="224" width="384" height="128" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="4294967295" fillcolor="4289331200" textcolor="4294967295" text="Next" shadowcolor="0" highlightcolor="0">
+   <font family="Arial" size="30"/>
+   <physics enabled="0" bodytype="0" convex="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0"/>
+   </physics>
+  </object>
+  <object uid="{8b757ed7-5d59-4ce6-a283-8896c24795a7}" shape="5" name="text_2" alpha="1" blendMode="0" x="224" y="96" width="186" height="58" anchorX="0" anchorY="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" text="Scene 1" shadowcolor="4294967295" highlightcolor="4294967295">
+   <font family="Arial" size="40"/>
+   <physics enabled="0" bodytype="0" convex="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="hud" gridX="32" gridY="32">
+  <object uid="{434d626e-7a8e-45b9-be29-33d3d9dd72c2}" shape="5" name="title" alpha="1" blendMode="0" x="10" y="928" width="552" height="38" anchorX="0" anchorY="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" text="Level Director X - Composer Example" shadowcolor="4294967295" highlightcolor="4294967295">
+   <font family="Arial Black" size="22"/>
+   <physics enabled="0" bodytype="0" convex="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>

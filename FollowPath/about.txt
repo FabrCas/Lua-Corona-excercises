@@ -1,0 +1,4 @@
+<b>Follow Path</b>
+<br>A simple example showing the use of 'Follow Path'.  This example demonstrates auto start and manually starting the follow path through code.
+<br><br>
+<img src="%PATH%image.png" >

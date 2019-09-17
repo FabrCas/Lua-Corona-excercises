@@ -2,12 +2,12 @@
 -- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
 
 settings = {
-
+	
 	orientation = {
-		default = "portrait",
-		supported = { "portrait", "portraitUpsideDown", "landscapeLeft", "landscapeRight", }
+		default = "landscapeLeft",
+		supported = { "landscapeLeft", "landscapeRight", }
 	},
-
+	
 	iphone = {
 		plist = {
 			UIStatusBarHidden = false,
@@ -29,7 +29,7 @@ settings = {
             --]]
 		}
 	},
-
+	
 	--[[
 	-- Android permissions
 

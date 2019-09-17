@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="1.0" drawmode="2" width="7680" height="800" gridwidth="32" gridheight="32" lastasset="bg_tileset" target="13" backgroundcolor="4286743170" gravityX="0" gravityY="9.8" parallaxenabled="1" parallaxinfinite="1" parallaxdamping="1" name="scene1_view">
+ <properties>
+  <property name="Enemy" value=""/>
+ </properties>
+ <assets firstgid="1" name="space_bg2" width="1024" height="512">
+  <image source="../images/space_bg2.png" width="1024" height="512"/>
+  <asset frame="0" name="space_bg2_0" spritename="" class="" export="1" x="0" y="0" w="1024" h="512">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="2" name="bg_tileset" width="1024" height="2048">
+  <image source="../images/bg_tileset.png" width="1024" height="2048" spritesheet="../images/bg_tileset.xml"/>
+  <asset frame="2" name="BGTile (1)_png" spritename="BGTile (1)_png" class="" export="1" x="512" y="0" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="4" name="BGTile (3)_png" spritename="BGTile (3)_png" class="" export="1" x="0" y="256" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="9" name="Fence (1)_png" spritename="Fence (1)_png" class="" export="1" x="256" y="512" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="10" name="Fence (2)_png" spritename="Fence (2)_png" class="" export="1" x="512" y="512" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="11" name="Fence (3)_png" spritename="Fence (3)_png" class="" export="1" x="768" y="512" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="12" name="Spike_png" spritename="Spike_png" class="" export="1" x="0" y="768" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="13" name="Tile (1)_png" spritename="Tile (1)_png" class="" export="1" x="256" y="768" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="16" name="Tile (4)_png" spritename="Tile (4)_png" class="" export="1" x="0" y="1024" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="17" name="Tile (5)_png" spritename="Tile (5)_png" class="" export="1" x="256" y="1024" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="18" name="Tile (6)_png" spritename="Tile (6)_png" class="" export="1" x="512" y="1024" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="19" name="Tile (7)_png" spritename="Tile (7)_png" class="" export="1" x="768" y="1024" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="20" name="Tile (8)_png" spritename="Tile (8)_png" class="" export="1" x="0" y="1280" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="21" name="Tile (9)_png" spritename="Tile (9)_png" class="" export="1" x="256" y="1280" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="24" name="Tile (12)_png" spritename="Tile (12)_png" class="" export="1" x="0" y="1536" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="25" name="Tile (13)_png" spritename="Tile (13)_png" class="" export="1" x="256" y="1536" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="26" name="Tile (14)_png" spritename="Tile (14)_png" class="" export="1" x="512" y="1536" w="256" h="256">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="30" name="run_shoot" width="2048" height="2048">
+  <image source="../images/run_shoot.png" width="2048" height="2048" spritesheet="../images/run_shoot.xml"/>
+  <asset frame="0" name="RunShoot (1)_png" spritename="RunShoot (1)_png" class="" export="1" x="0" y="0" w="567" h="556">
+   <animations>
+    <sequence name="run" loopCount="0" loopDirection="0" duration="1000" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+      <frame idx="4"/>
+      <frame idx="5"/>
+      <frame idx="6"/>
+      <frame idx="7"/>
+     </frames>
+    </sequence>
+    <sequence name="idle" loopCount="0" loopDirection="0" duration="200" default="0" play="0">
+     <frames>
+      <frame idx="8"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <layer parallaxX="0.2" parallaxY="0" parallaxRepeat="1" name="BG" showBodies="1" gridX="32" gridY="32">
+  <object uid="{28e5031f-9927-4ba9-8192-f64f765f8dbe}" shape="6" name="space_bg2_1" alpha="1" blendMode="0" idx="1" x="0" y="0" width="1280" height="800" anchorX="0" anchorY="0">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{ea3110ee-5a47-4741-8882-c4f8b3de2348}" shape="6" name="space_bg2_2" alpha="1" blendMode="0" idx="1" x="1280" y="0" width="1280" height="800" anchorX="0" anchorY="0">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="1" parallaxY="0" parallaxRepeat="0" name="level" gridX="32" gridY="32">
+  <object uid="{62d45699-5204-4cd7-bac1-9d65c3b23a75}" shape="6" name="Tile (4)_9" alpha="1" blendMode="0" idx="18" x="2560" y="160" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{87a77e1c-c78c-4e1c-a4f3-86d27bc410f0}" shape="6" name="Tile (4)_10" alpha="1" blendMode="0" idx="18" x="2560" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{dc32422c-da9c-4f19-823b-9d75d74ce6c0}" shape="6" name="Tile (5)_4" alpha="1" blendMode="0" idx="19" x="2816" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{c4b0c469-776d-4be4-b7ad-6f619215c097}" shape="6" name="Tile (6)_5" alpha="1" blendMode="0" idx="20" x="3584" y="160" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{2ea6e723-952a-4a15-b3ab-ae533b38eb7a}" shape="6" name="Tile (6)_6" alpha="1" blendMode="0" idx="20" x="3584" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{118c47e5-164f-4419-88df-c2d7ac6cd4b6}" shape="6" name="Tile (5)_7" alpha="1" blendMode="0" idx="19" x="3072" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{37237166-014a-4084-ad4d-738cc8ce8a54}" shape="6" name="Tile (5)_8" alpha="1" blendMode="0" idx="19" x="3072" y="160" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{47ee896b-f6fa-4d95-8fbd-667a05e46e61}" shape="6" name="Tile (5)_9" alpha="1" blendMode="0" idx="19" x="3328" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{4efda746-b534-46b4-9c93-d1a4cb2a5274}" shape="6" name="Tile (4)_11" alpha="1" blendMode="0" idx="18" x="2560" y="-96" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{422acf36-b838-4e10-b90e-efffcc09aac7}" shape="6" name="Tile (6)_15" alpha="1" blendMode="0" idx="20" x="3584" y="-96" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{48041614-c4c2-4e0d-8335-afdfb18cb3ec}" shape="6" name="Spike_11" alpha="1" blendMode="0" idx="14" x="3616" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{975b6049-95bd-4427-beab-329f64431232}" shape="6" name="Spike_12" alpha="1" blendMode="0" idx="14" x="3776" y="416" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="1" parallaxY="0" parallaxRepeat="1" name="platform" gridX="32" gridY="32">
+  <object uid="{2fe4c6ae-518d-4644-945c-2756e2f15e8a}" shape="6" name="Tile (13)_1" alpha="1" blendMode="0" idx="27" x="0" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{15106952-f0d6-42f3-ba9a-dfa0bab13bb4}" shape="6" name="Tile (13)_2" alpha="1" blendMode="0" idx="27" x="256" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{3dff82b6-414d-4537-9237-4f4ff52babbe}" shape="6" name="Tile (13)_3" alpha="1" blendMode="0" idx="27" x="512" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{e02eb22e-aaa6-42d2-becc-58c0ce0ad368}" shape="6" name="Tile (13)_4" alpha="1" blendMode="0" idx="27" x="768" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{417359b3-e447-4061-b0fa-096b9bbf8cba}" shape="6" name="Tile (13)_5" alpha="1" blendMode="0" idx="27" x="1024" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{6a364673-b9fe-4c10-b096-691a0833e59f}" shape="6" name="Tile (13)_6" alpha="1" blendMode="0" idx="27" x="1536" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{828a1fae-dce7-4fda-8111-11bd02956da8}" shape="6" name="Tile (13)_7" alpha="1" blendMode="0" idx="27" x="2304" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{f2f5a4bb-fc69-4936-b6c4-5cd7ef2b980d}" shape="6" name="Tile (13)_8" alpha="1" blendMode="0" idx="27" x="1280" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{82cec823-785a-47ee-a22a-0ef9e0ca3ef8}" shape="6" name="Tile (13)_9" alpha="1" blendMode="0" idx="27" x="2048" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{97d010b0-f862-4ae1-80ba-eadecc8eba88}" shape="6" name="Tile (13)_10" alpha="1" blendMode="0" idx="27" x="1792" y="672" width="256" height="256" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="player" gridX="32" gridY="32">
+  <object uid="{da99c4fa-b022-4b38-97cf-2891dc105027}" shape="6" name="RunShoot (1)_1" alpha="1" blendMode="0" idx="30" x="64" y="544" width="151" height="140" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="4" parallaxY="0" parallaxRepeat="1" name="FG" gridX="32" gridY="32">
+  <object uid="{f3ce5438-8b06-48ac-94d1-52186f94450a}" shape="6" name="Spike_1" alpha="1" blendMode="0" idx="14" x="2304" y="352" width="256" height="448" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="hud" gridX="32" gridY="32"/>
+</level>

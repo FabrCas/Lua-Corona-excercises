@@ -1,0 +1,4 @@
+<b>Joint Demo</b>
+<br>In this example a simple car is constructed using distance joints.  A wrecking ball is also simulated using a rope joint.
+<br><br>
+<img src="%PATH%image.png" >

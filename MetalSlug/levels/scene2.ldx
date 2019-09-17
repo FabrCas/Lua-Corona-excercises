@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="1.0" drawmode="0" width="11520" height="640" gridwidth="32" gridheight="16" lastasset="ms1_soldier_float" target="1" backgroundcolor="3736456158" gravityX="0" gravityY="9.8" parallaxenabled="1" parallaxinfinite="0" parallaxdamping="10" name="scene2_view">
+ <assets firstgid="1" name="mgs_bg1" width="4151" height="238">
+  <image source="../images/mgs_bg1.png" width="4151" height="238"/>
+  <asset frame="0" name="mgs_bg1_0" spritename="" class="" export="1" x="0" y="0" w="4151" h="238">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="2" name="ms_bga" width="1180" height="176">
+  <image source="../images/ms_bga.png" width="1180" height="176"/>
+  <asset frame="0" name="ms_bga_0" spritename="" class="" export="1" x="0" y="0" w="1180" h="176">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="3" name="ms1_boat" width="512" height="512">
+  <image source="../images/ms1_boat.png" width="512" height="512" spritesheet="../images/ms1_boat.xml"/>
+  <asset frame="0" name="ms_boat1_png" spritename="ms_boat1_png" class="" export="1" x="1" y="1" w="317" h="208">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="400" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="5" name="ms1_waterA" width="1668" height="342">
+  <image source="../images/ms1_waterA.png" width="1668" height="342" spritesheet="../images/ms1_waterA.xml"/>
+  <asset frame="0" name="slice34_34_png" spritename="slice34_34_png" class="" export="1" x="1" y="1" w="832" h="169">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="400" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="9" name="ms1_waterB" width="432" height="1644">
+  <image source="../images/ms1_waterB.png" width="432" height="1644" spritesheet="../images/ms1_waterB.xml"/>
+  <asset frame="0" name="slice26_26_png" spritename="slice26_26_png" class="" export="1" x="1" y="1" w="430" h="272">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="400" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+      <frame idx="4"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="15" name="ms1_wfall" width="84" height="145">
+  <image source="../images/ms1_wfall.png" width="84" height="145" spritesheet="../images/ms1_wfall.xml"/>
+  <asset frame="0" name="ms_fall1_png" spritename="ms_fall1_png" class="" export="1" x="1" y="1" w="48" h="143">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="400" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="17" name="ms1_static" width="241" height="455">
+  <image source="../images/ms1_static.png" width="241" height="455" spritesheet="../images/ms1_static.xml"/>
+  <asset frame="0" name="ms1_fg1_png" spritename="ms1_fg1_png" class="" export="1" x="1" y="196" w="153" h="86">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms1_hut_png" spritename="ms1_hut_png" class="" export="1" x="1" y="284" w="136" h="170">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms1_hut2_png" spritename="ms1_hut2_png" class="" export="1" x="139" y="284" w="101" h="170">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms1_hut3_png" spritename="ms1_hut3_png" class="" export="1" x="1" y="1" w="233" h="193">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="21" name="ms_ufo" width="48" height="44" spacing="2">
+  <image source="../images/ms_ufo.png" width="396" height="44"/>
+  <asset frame="0" name="ms_ufo_0" spritename="" class="" export="0" x="0" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms_ufo_1" spritename="" class="" export="1" x="50" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms_ufo_2" spritename="" class="" export="0" x="100" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms_ufo_3" spritename="" class="" export="0" x="150" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="4" name="ms_ufo_4" spritename="" class="" export="0" x="200" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="5" name="ms_ufo_5" spritename="" class="" export="0" x="250" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="6" name="ms_ufo_6" spritename="" class="" export="0" x="300" y="0" w="48" h="44">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="28" name="ms_gwater" width="350" height="48" spacing="3">
+  <image source="../images/ms_gwater.png" width="350" height="202"/>
+  <asset frame="0" name="ms_gwater_0" spritename="" class="" export="1" x="0" y="0" w="350" h="48">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="500" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="3"/>
+      <frame idx="1"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms_gwater_1" spritename="" class="" export="0" x="0" y="51" w="350" h="48">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms_gwater_2" spritename="" class="" export="0" x="0" y="102" w="350" h="48">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms_gwater_3" spritename="" class="" export="0" x="0" y="153" w="350" h="48">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="32" name="ms_gwater2" width="1655" height="51">
+  <image source="../images/ms_gwater2.png" width="1655" height="205"/>
+  <asset frame="0" name="ms_gwater2_0" spritename="" class="" export="1" x="0" y="0" w="1655" h="51">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="400" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms_gwater2_1" spritename="" class="" export="0" x="0" y="51" w="1655" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms_gwater2_2" spritename="" class="" export="0" x="0" y="102" w="1655" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms_gwater2_3" spritename="" class="" export="0" x="0" y="153" w="1655" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="36" name="ms1_clouds" width="433" height="62">
+  <image source="../images/ms1_clouds.png" width="433" height="62"/>
+  <asset frame="0" name="ms1_clouds_0" spritename="" class="" export="1" x="0" y="0" w="433" h="62">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="37" name="ms1_chopperl" width="329" height="64">
+  <image source="../images/ms1_chopperl.png" width="329" height="64" spritesheet="../images/ms1_chopperl.xml"/>
+  <asset frame="0" name="ms1_chop1_png" spritename="ms1_chop1_png" class="" export="1" x="1" y="1" w="86" h="62">
+   <animations>
+    <sequence name="sequence1" loopCount="0" loopDirection="0" duration="1300" default="1" play="0">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+      <frame idx="3"/>
+      <frame idx="2"/>
+      <frame idx="1"/>
+      <frame idx="0"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="1" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="1" sleepallowed="0" fixed="1" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="41" name="ms1_blades" width="84" height="27">
+  <image source="../images/ms1_blades.png" width="336" height="27"/>
+  <asset frame="0" name="ms1_blades_0" spritename="" class="" export="1" x="0" y="0" w="84" h="27">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="100" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="1" bodytype="1" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="1" sleepallowed="0" fixed="1" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms1_blades_1" spritename="" class="" export="0" x="84" y="0" w="84" h="27">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms1_blades_2" spritename="" class="" export="0" x="168" y="0" w="84" h="27">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms1_blades_3" spritename="" class="" export="0" x="252" y="0" w="84" h="27">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="45" name="ms1_soldierl" width="128" height="256">
+  <image source="../images/ms1_soldierl.png" width="128" height="256" spritesheet="../images/ms1_soldierl.xml"/>
+  <asset frame="0" name="Image1_01_png" spritename="Image1_01_png" class="" export="1" x="1" y="125" w="20" h="38">
+   <animations>
+    <sequence name="run" loopCount="0" loopDirection="0" duration="800" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+      <frame idx="4"/>
+      <frame idx="5"/>
+      <frame idx="6"/>
+      <frame idx="7"/>
+      <frame idx="8"/>
+      <frame idx="9"/>
+      <frame idx="10"/>
+      <frame idx="11"/>
+     </frames>
+    </sequence>
+    <sequence name="sequence 2" loopCount="0" loopDirection="0" duration="600" default="0" play="0">
+     <frames/>
+    </sequence>
+   </animations>
+   <physics enabled="1" bodytype="2" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="1" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="61" name="ms1_soldier2" width="67" height="31">
+  <image source="../images/ms1_soldier2.png" width="269" height="31"/>
+  <asset frame="0" name="ms1_soldier2_0" spritename="" class="" export="1" x="0" y="0" w="67" h="31">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="800" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms1_soldier2_1" spritename="" class="" export="0" x="67" y="0" w="67" h="31">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms1_soldier2_2" spritename="" class="" export="0" x="134" y="0" w="67" h="31">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms1_soldier2_3" spritename="" class="" export="0" x="201" y="0" w="67" h="31">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="65" name="ms1_soldier_hang" width="26" height="51">
+  <image source="../images/ms1_soldier_hang.png" width="131" height="51"/>
+  <asset frame="0" name="ms1_soldier_hang_0" spritename="" class="" export="1" x="0" y="0" w="26" h="51">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="1000" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="3"/>
+      <frame idx="4"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms1_soldier_hang_1" spritename="" class="" export="0" x="26" y="0" w="26" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms1_soldier_hang_2" spritename="" class="" export="0" x="52" y="0" w="26" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms1_soldier_hang_3" spritename="" class="" export="0" x="78" y="0" w="26" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="4" name="ms1_soldier_hang_4" spritename="" class="" export="0" x="104" y="0" w="26" h="51">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <assets firstgid="70" name="ms1_soldier_float" width="46" height="49">
+  <image source="../images/ms1_soldier_float.png" width="184" height="49"/>
+  <asset frame="0" name="ms1_soldier_float_0" spritename="" class="" export="1" x="0" y="0" w="46" h="49">
+   <animations>
+    <sequence name="sequence 1" loopCount="0" loopDirection="0" duration="1200" default="1" play="1">
+     <frames>
+      <frame idx="0"/>
+      <frame idx="1"/>
+      <frame idx="2"/>
+      <frame idx="1"/>
+     </frames>
+    </sequence>
+   </animations>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="1" name="ms1_soldier_float_1" spritename="" class="" export="0" x="46" y="0" w="46" h="49">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="2" name="ms1_soldier_float_2" spritename="" class="" export="0" x="92" y="0" w="46" h="49">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+  <asset frame="3" name="ms1_soldier_float_3" spritename="" class="" export="0" x="138" y="0" w="46" h="49">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <layer parallaxX="0.8" parallaxY="0" parallaxRepeat="0" name="stage3_bg" gridX="32" gridY="16">
+  <object uid="{f0fbab77-4704-46af-a527-85f1148c66be}" shape="6" name="ms_bgb_1" alpha="1" blendMode="0" idx="3" x="7000" y="-48" width="1032" height="608" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{780a87b0-1c3d-4af6-96ae-151334babbd6}" shape="6" name="ms1_clouds_2" alpha="1" blendMode="0" idx="36" x="1920" y="-16" width="1600" height="352" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0.9" parallaxY="0" parallaxRepeat="0" name="stage2_bg" gridX="32" gridY="16">
+  <object uid="{1d8f5020-b88b-465c-a047-23b307c7cb91}" shape="6" name="ms_bga_1" alpha="1" blendMode="0" idx="2" x="4928" y="0" width="3488" height="560" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="1" parallaxY="0" parallaxRepeat="0" name="main" gridX="32" gridY="16">
+  <object uid="{049c65ec-734e-4bda-9ff5-364f63450847}" shape="6" name="ms_gwater_5" alpha="1" blendMode="0" idx="28" x="9308.5" y="465.167" width="1079.5" height="189.333" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{edf4955b-5d74-46c5-add1-f379258c275d}" shape="6" name="mgs_bg1_1" alpha="1" blendMode="0" idx="1" x="0" y="-48" width="11520" height="688" anchorX="0" anchorY="0">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{93361977-c819-466b-be01-52065c2c4b5d}" shape="6" name="ms_gwater2_6" alpha="1" blendMode="0" idx="32" x="5156" y="504" width="4595" height="143" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{004ca7f5-b6fc-4bc2-84e5-6207bbfcee82}" shape="6" name="slice26_26_3" alpha="1" blendMode="0" idx="9" x="9280" y="-192" width="1088" height="736" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{ede75b31-120f-4ef2-b29f-0b72a89c9cee}" shape="6" name="slice34_34_2" alpha="1" blendMode="0" idx="5" x="9216" y="160" width="2304" height="496" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{59f045f2-75c1-4b82-955f-c342ff09312c}" shape="6" name="ms_fall1_4" alpha="1" blendMode="0" idx="15" x="10070" y="-144" width="134" height="304" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{03ab4b8d-a8a9-4dbc-b2dc-2be5276939ce}" shape="6" name="ms1_hut2_7" alpha="1" blendMode="0" idx="19" x="7921" y="220" width="277" height="304" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{2215eb50-ee76-4bf7-85c6-a0e1e4d4952d}" shape="6" name="ms1_hut_8" alpha="1" blendMode="0" idx="18" x="7711" y="216" width="369" height="320" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{06a80dae-0a75-4a26-8239-cd4c331d4533}" shape="6" name="ms1_hut3_9" alpha="1" blendMode="0" idx="20" x="8190" y="111" width="642" height="423" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="1" parallaxY="0" parallaxRepeat="0" name="enemy" gridX="32" gridY="16">
+  <object uid="{9ce5b64f-ee0b-4c5b-9f2c-63aea742411b}" shape="6" name="chopper_1" alpha="1" blendMode="0" idx="37" x="4617.5" y="-126" width="182" height="118" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{249f86a3-c588-44d1-8caf-b05263f47a63}" shape="4" name="bezier_2" alpha="1" blendMode="0" x="4845.5" y="109" width="24" height="24" visible="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <bezier points="0,0 13,12 15,11 107,21 171,43 40,86 -86.25,101 -277.5,85"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{07f48f87-5ab8-4ea9-aca2-88fc04c8613f}" shape="8" name="chopper_path_2" alpha="1" blendMode="0" x="4969.5" y="-2" width="181" height="1" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{9ce5b64f-ee0b-4c5b-9f2c-63aea742411b}" toNode="{249f86a3-c588-44d1-8caf-b05263f47a63}" joinMode="1" repeats="3" delay="3" autostart="0" rebound="1" xFlip="0" yFlip="0" direction="0" rotate="0">
+   <polyjoint points="-281,-55 -123,112"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{1901e49d-b8cb-4163-9391-0812b900e569}" shape="6" name="chopper_1_blades" alpha="1" blendMode="0" idx="41" x="4589.5" y="-142.2" width="197" height="49" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{378f0791-deaf-4264-bc30-67c5cf58ec98}" shape="8" name="joint_5" alpha="1" blendMode="0" x="4688" y="-117.7" width="20" height="50" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{1901e49d-b8cb-4163-9391-0812b900e569}" toNode="{9ce5b64f-ee0b-4c5b-9f2c-63aea742411b}" joinMode="0" joint="1" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" maxmotortorque="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="5,1.5 4.5,1.2"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{93119329-16d7-4b5e-ad48-c7be6f63ddf2}" shape="2" name="path_6" alpha="1" blendMode="0" x="4832" y="106" width="24" height="24" visible="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="12.5,3.5 -99,-18 -153,-46 -167,-68 -136,-206"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{8677990e-d286-4105-9c1f-bb5f1b0be631}" shape="8" name="chopper_path_1" alpha="1" blendMode="0" x="4696" y="-67" width="12" height="3" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{9ce5b64f-ee0b-4c5b-9f2c-63aea742411b}" toNode="{93119329-16d7-4b5e-ad48-c7be6f63ddf2}" joinMode="1" repeats="0" delay="8" autostart="0" rebound="0" xFlip="0" yFlip="0" direction="1" rotate="0">
+   <polyjoint points="-2,8.5 163,185.5"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{84f34234-016c-46e4-a293-13f14a13b7e8}" shape="6" name="soldier_1" type="Enemy" alpha="1" blendMode="0" idx="45" x="1805" y="414.5" width="48" height="70" anchorX="0.5" anchorY="1">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{ea5f088e-bbc0-4c8c-8bf3-3babcbc9d6dc}" shape="2" name="path_1" alpha="1" blendMode="0" x="1824.5" y="470.5" width="24" height="24" visible="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="2,9 -88.5,15 -215.5,10 -373,11.5 -601.5,13.5 -772,14.5 -1124,13"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{67878a33-e07f-4d72-b758-285c155259c9}" shape="8" name="soldier_fpath_1" alpha="1" blendMode="0" x="1828.75" y="448.75" width="7" height="33" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{84f34234-016c-46e4-a293-13f14a13b7e8}" toNode="{ea5f088e-bbc0-4c8c-8bf3-3babcbc9d6dc}" joinMode="1" repeats="2" delay="8" autostart="1" rebound="1" xFlip="1" yFlip="0" direction="0" rotate="0">
+   <polyjoint points="0,0 7.75,33.75"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{62dd6e90-d9e7-4a5b-8e73-9de459a4f37a}" shape="6" name="soldier_2" alpha="1" blendMode="0" idx="45" x="4146" y="506" width="48" height="70" anchorX="0.5" anchorY="1">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{999a4fa9-d375-418e-81ca-6bc083cbb627}" shape="2" name="path_12" alpha="1" blendMode="0" x="4187" y="561" width="24" height="24" visible="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="0,0 -112,-7 -256,5 -336,2 -500,9"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{e37dd84f-96d9-40f4-a458-4a59c078bc4c}" shape="8" name="follow_path_13" alpha="1" blendMode="0" x="4170" y="541" width="29" height="32" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{62dd6e90-d9e7-4a5b-8e73-9de459a4f37a}" toNode="{999a4fa9-d375-418e-81ca-6bc083cbb627}" joinMode="1" repeats="-1" delay="8" autostart="1" rebound="1" xFlip="1" yFlip="0" direction="0" rotate="0">
+   <polyjoint points="0,0 29,32"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{0e6acc28-c044-4109-b6ce-4ecee2e67e06}" shape="6" name="ms1_soldier2_14" alpha="1" blendMode="0" idx="61" x="5718" y="296" width="142" height="77" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{a6493d21-c189-42f8-bf0f-ff58fe115559}" shape="6" name="ms1_soldier2_15" alpha="1" blendMode="0" idx="61" x="6745" y="157.5" width="142" height="77" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{3fc6c1cc-77b8-4763-90f7-2e6c251704d2}" shape="6" name="ms1_soldier_hang_16" alpha="1" blendMode="0" idx="65" x="7469" y="262" width="58" height="101" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{2a1fdaac-e37d-4421-8005-b48778527751}" shape="6" name="ms1_soldier_float_17" alpha="1" blendMode="0" idx="70" x="8434" y="508" width="103" height="74" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{69e3402a-4868-4285-9740-34ff6a2d3cdb}" shape="2" name="path_18" alpha="1" blendMode="0" x="8484" y="552" width="24" height="24" visible="0" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polyline points="-3,4 -205,5 -386,6"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{56a2ece4-3056-4346-ad57-c41fbf90867c}" shape="8" name="follow_path_19" alpha="1" blendMode="0" x="8485.5" y="545" width="10" height="19" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{2a1fdaac-e37d-4421-8005-b48778527751}" toNode="{69e3402a-4868-4285-9740-34ff6a2d3cdb}" joinMode="1" repeats="-1" delay="15" autostart="1" rebound="1" xFlip="1" yFlip="0" direction="0" rotate="0">
+   <polyjoint points="0,0 10.5,19"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="1">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="player" gridX="32" gridY="16">
+  <object uid="{5f4e190c-4e2c-4b82-8b40-bf235ae81662}" shape="6" name="ms_ufo" alpha="1" blendMode="0" idx="22" x="471" y="294" width="72" height="66" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="1" parallaxY="0" parallaxRepeat="0" name="FG" gridX="32" gridY="16">
+  <object uid="{922b3dd1-40f2-44d5-93ef-7e7d8a783402}" shape="6" name="ms1_fg1_1" alpha="1" blendMode="0" idx="17" x="3766" y="353" width="424" height="255" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="hud" gridX="16" gridY="16"/>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="markers" gridX="32" gridY="16">
+  <object uid="{f13c447c-cc50-40d9-bb89-5a0370c3620a}" shape="9" name="stage_1" type="stage" alpha="1" blendMode="0" x="5088" y="336" width="32" height="32" anchorX="0" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <properties>
+    <property name="isActive" value="true"/>
+    <property name="scrollPause" value="true"/>
+   </properties>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>

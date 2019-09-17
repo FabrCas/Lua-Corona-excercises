@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:88dfd91e00b31793dd23fc57c7003f77:a528228917af39ffab844be09d76f870:004a702aa2ec151a8a09bb47de983a4e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="ms1_static.png" width="241" height="455">
+    <sprite n="ms1_fg1.png" x="1" y="196" w="153" h="86" pX="0.5" pY="0.5" oX="1" oY="3" oW="155" oH="89"/>
+    <sprite n="ms1_hut.png" x="1" y="284" w="136" h="170" pX="0.5" pY="0.5" oX="0" oY="1" oW="136" oH="171"/>
+    <sprite n="ms1_hut2.png" x="139" y="284" w="101" h="170" pX="0.5" pY="0.5"/>
+    <sprite n="ms1_hut3.png" x="1" y="1" w="233" h="193" pX="0.5" pY="0.5" oX="1" oY="0" oW="234" oH="193"/>
+</TextureAtlas>

@@ -1,0 +1,5 @@
+<b>Composer Demo</b>
+<br>In this example two scenes (levels) within a single project are created and Corona composer is used to switch between them via the built-in Level Director button object.
+<br><br>
+<img src="%PATH%image1.png" >
+<img src="%PATH%image2.png" >

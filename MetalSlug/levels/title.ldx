@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="1.0" drawmode="0" width="960" height="640" gridwidth="16" gridheight="16" lastasset="" target="1" backgroundcolor="4278190080" gravityX="0" gravityY="9.8" parallaxenabled="0" parallaxinfinite="0" parallaxdamping="1" name="title">
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="layer1" gridX="16" gridY="16">
+  <object uid="{c64cd7d2-7977-4a04-9e98-0b5f94b6bfd3}" shape="5" name="text_1" alpha="1" blendMode="0" x="173" y="111" width="669" height="87" anchorX="0" anchorY="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" text="Metal Slug Template" embossed="1" shadowcolor="4294967295" highlightcolor="4294836224" overfillcolor="4278190080" overstrokecolor="4294967295">
+   <font family="Arial" size="60"/>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{538a5b44-46f3-4764-9f4b-52cc68117225}" shape="7" name="btnPlay" alpha="1" blendMode="0" x="422" y="449" width="166" height="62" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="4294967295" fillcolor="4278241380" textcolor="4294967295" text="PLAY" shadowcolor="4294967295" highlightcolor="4294967295" overfillcolor="4278215680" overstrokecolor="4294967295">
+   <font family="Arial" size="16"/>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>

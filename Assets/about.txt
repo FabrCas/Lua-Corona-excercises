@@ -1,0 +1,9 @@
+<b>Assets Demo</b>
+<br>This example demonstrates a number of features;
+<br>1. Single frame assets (palm)
+<br>2. Fixed size texture atlas/sprite sheets (dog and birds)
+<br>3. The use of an external asset (see palm asset)
+<br>4. Parallax Scrolling
+<br>5. Dynamically instantiates assets from within code
+<br><br>
+<img src="%PATH%image.png" >

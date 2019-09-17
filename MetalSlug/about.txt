@@ -1,0 +1,10 @@
+<b>Metal Slug Demo</b>
+<br>This is not supposed to be a recreation of the game but simply to showcase some features such as:
+<br>1. Parallax Scrolling
+<br>2. Multiple paths and Beziers
+<br>3. Markers
+<br>4. SpriteSheets
+<br>5. Animations
+<br><br>
+<br>The game assets are strictly for demonstration purposes and cannot be sold or used commercially.
+<img src="%PATH%image1.png" >

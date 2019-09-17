@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a4cbaa9d3e04fb86060863f15ddafe51:5f873fc1519dcd310753256a51aa6da5:2227c03f58bc6b139bae3abb2016c58d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="ms1_wfall.png" width="84" height="145">
+    <sprite n="ms_fall1.png" x="1" y="1" w="48" h="143" pX="0.5" pY="0.5"/>
+    <sprite n="ms_fall2.png" x="51" y="1" w="32" h="139" pX="0.5" pY="0.5" oX="1" oY="0" oW="33" oH="139"/>
+</TextureAtlas>

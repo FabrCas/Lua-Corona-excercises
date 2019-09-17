@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="1.0" drawmode="2" width="1920" height="640" gridwidth="32" gridheight="32" lastasset="" target="1" backgroundcolor="4284900966" gravityX="0" gravityY="9.8" parallaxenabled="0" parallaxinfinite="0" name="car_demo">
+ <properties>
+  <property name="Enemy" value=""/>
+ </properties>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="main" showBodies="1" gridX="32" gridY="32">
+  <object uid="{e48d4be0-0a23-4d23-a9bc-a43562477085}" shape="0" name="chassis" alpha="1" blendMode="0" x="965.463" y="55.284" width="217.021" height="18.5294" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <physics enabled="1" bodytype="1" convex="0" linked="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{54ab8cae-f005-4ae7-93dd-fa10dc054278}" shape="3" name="front_wheel" alpha="1" blendMode="0" x="971.057" y="84.253" width="61.0096" height="61.0096" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="1" bodytype="1" convex="0" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="30" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{bbf3bb23-bb6f-4774-8e08-c1b2304dfd65}" shape="3" name="rear_wheel" alpha="1" blendMode="0" x="1119.33" y="84.5457" width="60.5025" height="60.5025" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="1" bodytype="1" convex="0" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="30" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{3de0af12-e94c-4392-b7d1-302c9bbf690e}" shape="8" name="join_wheels" alpha="1" blendMode="0" x="1007.91" y="135.708" width="212.402" height="1.28729" rotation="-1" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{54ab8cae-f005-4ae7-93dd-fa10dc054278}" toNode="{bbf3bb23-bb6f-4774-8e08-c1b2304dfd65}" joinMode="0" joint="1" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="-6.95824,-21.291 145.757,-18.1488"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{e85171c1-4d56-4f86-9a25-977309bda509}" shape="8" name="support_front" alpha="1" blendMode="0" x="1020.8" y="80.1167" width="88.8228" height="48.2733" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{54ab8cae-f005-4ae7-93dd-fa10dc054278}" toNode="{e48d4be0-0a23-4d23-a9bc-a43562477085}" joinMode="0" joint="1" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="-20.0045,34.6078 52.9736,-17.157"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{5751e5ee-7f01-44df-8194-c6784ed4499e}" shape="8" name="support_rear" alpha="1" blendMode="0" x="1094.52" y="73.1052" width="99.7648" height="48.2733" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{bbf3bb23-bb6f-4774-8e08-c1b2304dfd65}" toNode="{e48d4be0-0a23-4d23-a9bc-a43562477085}" joinMode="0" joint="1" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="57.8143,42.4364 -19.9215,-10.0533"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{2345d7ff-9491-4c1c-9174-631f0ce1895b}" shape="8" name="front_shock" alpha="1" blendMode="0" x="1012.27" y="62.8593" width="72" height="50" rotation="15" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{54ab8cae-f005-4ae7-93dd-fa10dc054278}" toNode="{e48d4be0-0a23-4d23-a9bc-a43562477085}" joinMode="0" joint="1" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="2.60806,52.1239 -9.20821,7.30451"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{9784889d-69d7-4617-87f3-563239050168}" shape="8" name="rear_shock" alpha="1" blendMode="0" x="1073.98" y="64.5514" width="75.3063" height="50.2042" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{bbf3bb23-bb6f-4774-8e08-c1b2304dfd65}" toNode="{e48d4be0-0a23-4d23-a9bc-a43562477085}" joinMode="0" joint="1" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="75.6056,50.2489 75.9499,0"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{c07fcb6f-2c60-430e-8dca-ad10db6bff7d}" shape="4" name="bezier_9" alpha="1" blendMode="0" x="1009.27" y="478" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <bezier points="174.73,-254 14.7326,-158 14.7326,34 -49.2674,98 -145.267,98 -273.27,-30 -500.907,166 -433.27,-30 -689.27,2 -849.27,98 -977.267,194 -1009.27,66 -1169.27,-158"/>
+   <physics enabled="1" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{6f0d12cb-698d-4850-8422-7f54156aa24e}" shape="0" name="rope_pivot" alpha="1" blendMode="0" x="431" y="0" width="32" height="32" anchorX="0.5" anchorY="0.5" cornerRadius="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <physics enabled="1" bodytype="0" convex="0" linked="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{eae69c22-70cf-4dab-82e7-a215b9d53005}" shape="1" name="car_body" alpha="1" blendMode="0" x="996.358" y="55.5018" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <polygon points="0,0 61.7898,-41.1932 141.602,-33.4695 185.369,0"/>
+   <physics enabled="1" bodytype="1" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{8c3d9da8-baff-4398-9904-13e1dd2f0e5f}" shape="8" name="joint_14" alpha="1" blendMode="0" x="996.358" y="55.5018" width="77.2372" height="9.01101" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{eae69c22-70cf-4dab-82e7-a215b9d53005}" toNode="{e48d4be0-0a23-4d23-a9bc-a43562477085}" joinMode="0" joint="4" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="0,0 38.8077,4.52339 77.6151,9.0468"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{7fc4504e-5e29-4f52-9a9a-9cf1e9c19761}" shape="3" name="ball" alpha="1" blendMode="0" x="-14" y="68" width="30" height="30" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="4289352960" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="1" bodytype="1" convex="0" linked="0">
+    <body bodyshape="1" friction="0.3" bounce="0.9" density="2" radius="15" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+  <object uid="{919fe17f-6dbd-49d5-aee2-e768fb11f0f7}" shape="8" name="rope_joint" alpha="1" blendMode="0" x="-5" y="-9" width="192" height="91" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" fromNode="{6f0d12cb-698d-4850-8422-7f54156aa24e}" toNode="{7fc4504e-5e29-4f52-9a9a-9cf1e9c19761}" joinMode="0" joint="6" limit1="0" limit2="0" paramA="0" paramB="0" frequency="0" motorspeed="0" maxforce="0" dampingratio="0" limitenabled="0" motorenabled="0">
+   <polyjoint points="452,25 5,91"/>
+   <physics enabled="0" bodytype="0" convex="1" linked="0">
+    <body bodyshape="2" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+ </layer>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="hud" gridX="32" gridY="32">
+  <object uid="{434d626e-7a8e-45b9-be29-33d3d9dd72c2}" shape="5" name="title" alpha="1" blendMode="0" x="10" y="608" width="434" height="38" anchorX="0" anchorY="0" strokecolor="4294967295" fillcolor="0" textcolor="4294967295" text="Level Director X - Joint Demo" shadowcolor="4294967295" highlightcolor="4294967295" overfillcolor="0" overstrokecolor="0">
+   <font family="Arial Black" size="22"/>
+   <physics enabled="0" bodytype="0" convex="0" linked="0">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>

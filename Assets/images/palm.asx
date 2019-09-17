@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets name="palm" width="338" height="338">
+ <image source="palm.png" width="338" height="338"/>
+ <asset frame="0" name="palm" spritename="" class="" export="1" x="0" y="0" w="338" h="338">
+  <physics enabled="0" bodytype="0" convex="0" linked="1">
+   <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0"/>
+  </physics>
+ </asset>
+</assets>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9a5f7f34bb026c80e0b1be149809369b:b0ff7b2f7e608cd2120c0404dd0c79f5:d7401919751674bc64fc25f13a4e8410$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="tileset.png" width="512" height="1024">
+    <sprite n="bridge.png" x="77" y="522" w="70" h="70"/>
+    <sprite n="bush.png" x="3" y="522" w="70" h="70"/>
+    <sprite n="cactus.png" x="373" y="521" w="70" h="70"/>
+    <sprite n="cloud1.png" x="269" y="3" w="128" h="71"/>
+    <sprite n="cloud2.png" x="136" y="3" w="129" h="71"/>
+    <sprite n="cloud3.png" x="3" y="3" w="129" h="71"/>
+    <sprite n="door_closedMid.png" x="299" y="448" w="70" h="70"/>
+    <sprite n="door_closedTop.png" x="225" y="448" w="70" h="70"/>
+    <sprite n="door_openMid.png" x="151" y="448" w="70" h="70"/>
+    <sprite n="door_openTop.png" x="77" y="448" w="70" h="70"/>
+    <sprite n="fence.png" x="3" y="448" w="70" h="70"/>
+    <sprite n="grass.png" x="373" y="447" w="70" h="70"/>
+    <sprite n="grassCenter.png" x="299" y="374" w="70" h="70"/>
+    <sprite n="grassCenter_rounded.png" x="225" y="374" w="70" h="70"/>
+    <sprite n="grassCliffLeft.png" x="151" y="374" w="70" h="70"/>
+    <sprite n="grassCliffLeftAlt.png" x="77" y="374" w="70" h="70"/>
+    <sprite n="grassCliffRight.png" x="3" y="374" w="70" h="70"/>
+    <sprite n="grassCliffRightAlt.png" x="373" y="373" w="70" h="70"/>
+    <sprite n="grassHalf.png" x="299" y="300" w="70" h="70"/>
+    <sprite n="grassHalfLeft.png" x="225" y="300" w="70" h="70"/>
+    <sprite n="grassHalfMid.png" x="151" y="300" w="70" h="70"/>
+    <sprite n="grassHalfRight.png" x="77" y="300" w="70" h="70"/>
+    <sprite n="grassHillLeft.png" x="3" y="300" w="70" h="70"/>
+    <sprite n="grassHillLeft2.png" x="373" y="299" w="70" h="70"/>
+    <sprite n="grassHillRight.png" x="299" y="226" w="70" h="70"/>
+    <sprite n="grassHillRight2.png" x="225" y="226" w="70" h="70"/>
+    <sprite n="grassLedgeLeft.png" x="484" y="3" w="5" h="24"/>
+    <sprite n="grassLedgeRight.png" x="475" y="3" w="5" h="24"/>
+    <sprite n="grassLeft.png" x="151" y="226" w="70" h="70"/>
+    <sprite n="grassMid.png" x="77" y="226" w="70" h="70"/>
+    <sprite n="grassRight.png" x="3" y="226" w="70" h="70"/>
+    <sprite n="hill_smallAlt.png" x="447" y="151" w="48" h="106"/>
+    <sprite n="ladder_mid.png" x="373" y="225" w="70" h="70"/>
+    <sprite n="ladder_top.png" x="299" y="152" w="70" h="70"/>
+    <sprite n="liquidLava.png" x="225" y="152" w="70" h="70"/>
+    <sprite n="liquidLavaTop.png" x="151" y="152" w="70" h="70"/>
+    <sprite n="liquidLavaTop_mid.png" x="77" y="152" w="70" h="70"/>
+    <sprite n="liquidWater.png" x="3" y="152" w="70" h="70"/>
+    <sprite n="liquidWaterTop.png" x="373" y="151" w="70" h="70"/>
+    <sprite n="liquidWaterTop_mid.png" x="299" y="78" w="70" h="70"/>
+    <sprite n="mushroomRed.png" x="225" y="78" w="70" h="70"/>
+    <sprite n="plant.png" x="151" y="78" w="70" h="70"/>
+    <sprite n="rock.png" x="77" y="78" w="70" h="70"/>
+    <sprite n="sandCenter.png" x="299" y="374" w="70" h="70"/>
+    <sprite n="sandCenter_rounded.png" x="225" y="374" w="70" h="70"/>
+    <sprite n="signExit.png" x="3" y="78" w="70" h="70"/>
+    <sprite n="signRight.png" x="401" y="77" w="70" h="70"/>
+    <sprite n="star.png" x="401" y="3" w="70" h="70"/>
+</TextureAtlas>

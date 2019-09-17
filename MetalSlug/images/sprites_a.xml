@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites_a.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="slice34_34.png"	x="0"	y="0"	width="832"	height="169" frameX="-0" frameY="-0" frameWidth="832" frameHeight="169"/>
+	<SubTexture name="slice35_35.png"	x="833"	y="169"	width="832"	height="169" frameX="-0" frameY="-0" frameWidth="832" frameHeight="169"/>
+	<SubTexture name="slice36_36.png"	x="0"	y="508"	width="832"	height="169" frameX="-0" frameY="-0" frameWidth="832" frameHeight="169"/>
+	<SubTexture name="slice37_37.png"	x="0"	y="847"	width="832"	height="169" frameX="-0" frameY="-0" frameWidth="832" frameHeight="169"/>
+	<SubTexture name="slice38_38.png"	x="0"	y="170"	width="832"	height="168" frameX="-0" frameY="-0" frameWidth="832" frameHeight="168"/>
+	<SubTexture name="slice39_39.png"	x="0"	y="678"	width="832"	height="168" frameX="-0" frameY="-0" frameWidth="832" frameHeight="168"/>
+	<SubTexture name="slice40_40.png"	x="833"	y="0"	width="832"	height="168" frameX="-0" frameY="-0" frameWidth="832" frameHeight="168"/>
+	<SubTexture name="slice41_41.png"	x="0"	y="339"	width="832"	height="168" frameX="-0" frameY="-0" frameWidth="832" frameHeight="168"/>
+</TextureAtlas>
