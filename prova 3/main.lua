@@ -1,15 +1,18 @@
 -----------------------------------------------------------------------------------------
--- Level Director
+-- Level Director - Composer example
 -- main.lua
--- Created on lun set 16 15:44:26 2019
+-- Created on mer set 18 16:11:47 2019
 -----------------------------------------------------------------------------------------
 
 display.setStatusBar( display.HiddenStatusBar )
 
-require("lib.LD_LoaderX")
-physics = require ("physics")
-physics.start()
-local composer = require( "composer" )
+local composer = require ("composer")
+
+-- load first screen
+composer.gotoScene( "scene1" )
+
+
+mposer" )
 
 composer.gotoScene( "menu", "fade", 500 )
 

@@ -1,8 +1,8 @@
 application = {
 	content = {
-		width = 320,
-	    height = 480, 
-		scale = "stretchZoom",
+		-- width = 800,
+		-- height = 1280, 
+		-- scale = "LetterBox",
 		fps = 60,
 		
 		--[[
@@ -18,3 +18,4 @@ application = {
 	}
  
 }
+

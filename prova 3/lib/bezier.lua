@@ -48,3 +48,7 @@ function bezier:curve(xv, yv)
 end
  
 return bezier
+s}, reductor)[#points][1]
+end
+ 
+return bezier

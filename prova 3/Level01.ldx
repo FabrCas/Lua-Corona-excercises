@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level version="2.0" drawmode="0" width="640" height="960" gridwidth="16" gridheight="16" lastasset="" target="0" backgroundcolor="4284900966" gravityX="0" gravityY="9.8" parallaxenabled="0" parallaxinfinite="0" parallaxdamping="1" name="Level01">
+ <assets firstgid="1" name="redBrick - Copia" width="100" height="40">
+  <image source="../images/redBrick - Copia.png" width="100" height="40"/>
+  <asset frame="0" name="redBrick - Copia_0" spritename="" class="" export="1" x="0" y="0" w="100" h="40">
+   <physics enabled="1" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </asset>
+ </assets>
+ <layer parallaxX="0" parallaxY="0" parallaxRepeat="0" name="Layer 1" gridX="16" gridY="16">
+  <object uid="{723b6e31-a9a8-4f1a-99c4-1f513e762c75}" shape="6" name="redBrick - Copia_0" alpha="1" blendMode="0" idx="1" spriteName="" x="48" y="272" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{07e28ce5-ab31-4a88-aab8-400a01706cec}" shape="6" name="redBrick - Copia_2" alpha="1" blendMode="0" idx="1" spriteName="" x="192" y="272" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{39435f34-6c20-4bb2-99cc-9c773aea8d4e}" shape="6" name="redBrick - Copia_3" alpha="1" blendMode="0" idx="1" spriteName="" x="336" y="272" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{043180df-6942-4c32-9057-18a1eedfc47c}" shape="6" name="redBrick - Copia_4" alpha="1" blendMode="0" idx="1" spriteName="" x="480" y="272" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{1e528ca7-cb9f-4a0f-9686-ffbe76aa60fd}" shape="6" name="redBrick - Copia_5" alpha="1" blendMode="0" idx="1" spriteName="" x="128" y="384" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{ffc77f3d-7db7-46f5-bd79-0a15861dbd3a}" shape="6" name="redBrick - Copia_6" alpha="1" blendMode="0" idx="1" spriteName="" x="272" y="384" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{3745f8d6-67a2-47f9-a850-470bb03aef7c}" shape="6" name="redBrick - Copia_7" alpha="1" blendMode="0" idx="1" spriteName="" x="416" y="384" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{5f1b6cec-4fbe-4411-a85e-c59b5b304fc0}" shape="6" name="redBrick - Copia_8" alpha="1" blendMode="0" idx="1" spriteName="" x="64" y="480" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{6cfe18c9-ccf5-4037-91a4-bfd4454f97db}" shape="6" name="redBrick - Copia_9" alpha="1" blendMode="0" idx="1" spriteName="" x="480" y="480" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{0762ac76-72f3-42a7-9f6c-78f66194434f}" shape="6" name="redBrick - Copia_10" alpha="1" blendMode="0" idx="1" spriteName="" x="272" y="480" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{50c97f5b-d77b-4889-a0bc-c0f4abedf08a}" shape="6" name="redBrick - Copia_11" alpha="1" blendMode="0" idx="1" spriteName="" x="160" y="576" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{b5ad7db7-c149-4d06-98fd-f28a2f11767a}" shape="6" name="redBrick - Copia_1" alpha="1" blendMode="0" idx="1" spriteName="" x="384" y="576" width="100" height="40" anchorX="0.5" anchorY="0.5">
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="0" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+  <object uid="{7d1e891b-471f-4cbe-bf0b-d2dde5981487}" shape="3" name="ellipse_13" alpha="1" blendMode="0" fillidx="1" spriteName="" x="280" y="0" width="80" height="80" anchorX="0.5" anchorY="0.5" strokecolor="4294967295" fillcolor="0" textcolor="4294967295">
+   <ellipse/>
+   <physics enabled="0" bodytype="0" convex="0" linked="1">
+    <body bodyshape="1" friction="0.3" bounce="0.2" density="1" radius="0" bullet="0" sensor="0" sleepallowed="0" fixed="0" categorybit="0" maskbit="0" lineardamp="0" angulardamp="0" gravscale="1" groupindex="0"/>
+   </physics>
+  </object>
+ </layer>
+</level>
