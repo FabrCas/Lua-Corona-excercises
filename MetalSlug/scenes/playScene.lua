@@ -29,11 +29,13 @@ function scene:create( event )
 	self.myLevel= LD_Loader:new(self.view) -- instantiate the LD_Loader class
 	self.myLevel:loadLevel("level" .. string.format("%02d", composer.level)) -- load a level/scene
 
-	self.stages = self.myLevel:layerObjectsWithClass("markers","stage")
+	self.stages = self.myLevel:layerObjectsWithClass("markers","stage") --mi prendo i valore dei markers, in questo caso uno
 
 	--init properties as not all may be used per stage/marker
 	for k, v in pairs (self.stages) do   --coppia chiave valore
-		v.property["isActive"] = v.property["isActive"] or "false"
+		--le proprietà isActive e scrollPause sono proprietà utente impostabili da director x
+		v.property["isActive"] = v.property["isActive"] or "false"  -- da director x può impostare questi valori
+		--quindi equivale a dire prendi i valori se ci sono oppure settali su false
 		v.property["scrollPause"] = v.property["scrollPause"] or "false"
 	end
 
@@ -126,26 +128,32 @@ function scene:show( event )
 		---------------------------------
 		function onUpdate(event)
 		---------------------------------
+
 			local pos = self.myLevel:getCameraPos()
 			local dt = getDeltaTime()
 			local k,v
 
 			-- check for any markers that have been reached
 			for k, v in pairs (self.stages) do
+				print("scrollPause del marker=" .. v.property["scrollPause"])--verificare il valore in esecuzione
+
 				if (v.property["isActive"] == "true" and pos.x >= v.x) then
 					v.property["isActive"] = "false"
 
 					print ("marker ", v.name, " reached")
 
 					if (v.property["scrollPause"]) == 'true' then
-						self.scrollPause=true
-						self.state=1
-						onMarkerReached(v)
+						self.scrollPause=true --viene messa in pausa la scena
+						--il marker abilita lo scrollPause della scena
+						self.state=1 --abiliterà la funzione onPathReached(path)
+						onMarkerReached(v) --animazione scena
 					end
 				end
 			end
+			print(self.scrollPause)--verificare il valore in esecuzione
 			-- move level/layers
-			if (not self.scrollPause) and pos.x < 10360 then
+			if (not self.scrollPause) and pos.x < 10360 then  --10360 fine asset mappa
+				--scrollPause della scena, valore diverso sa quello del marker
 				self.myLevel:move(self.speedX * dt,0)
 			end
 		end
@@ -160,7 +168,7 @@ function scene:show( event )
 		end
 
 		--slight pause before starting
-		timer.performWithDelay( 500, init )
+		timer.performWithDelay( 1000, init )   --viene invocato init dopo 10 sec 
 
     end
 

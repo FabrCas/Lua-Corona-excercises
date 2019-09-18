@@ -17,7 +17,7 @@ local btnLeft = nil
 local btnRight = nil
 local btnUp = nil
 local player = nil
-local coords = nil 
+local coords = nil
 local isActive = false
 local camera = nil
 local btnPressed = false
@@ -30,6 +30,16 @@ local SPEED_Y = 180
 --local SPEED_X = 150
 --local SPEED_Y = 250
 
+
+--"magTextureFilter" — The default magnification sampling filter applied whenever
+--an image is loaded by Corona. Once an image is loaded the first time, the same sampling
+ --filter will be applied for any subsequent loads of the same file. This is because
+--textures are loaded once per file. Default value is "linear". Alternative value is "nearest".
+
+--"minTextureFilter" — The default minification sampling filter applied whenever an image
+ --is loaded by Corona. Once an image is loaded the first time, the same sampling filter
+--  will be applied for any subsequent loads of the same file. This is because texture
+	--s are loaded once per file. Default value is "linear". Alternative value is "nearest".
 display.setDefault( "magTextureFilter", "nearest" )
 display.setDefault( "minTextureFilter", "nearest" )
 
@@ -38,13 +48,13 @@ local function gameLoop()
 ------------------------------------
 	-- display current camera position
 	local pos = myLevel:getCameraPos()
-		
+
 	coords.text = string.format("%04d", pos.x) .. ' , ' .. string.format("%04d", pos.y)
 	scoreTxt.text = string.format("%d", score)
 
 	-- if no buttons pressed then slow player down to a stop.
 	local vx,vy = player:getLinearVelocity()
-	
+
 	if (not btnPressed) then
 		if (vx < 0.1) then
 			vx = vx * -0.5
@@ -65,7 +75,7 @@ local function upPressed(event)
 ------------------------------------
 	if (isActive) then
 		btnPressed = true
-		
+
 		local vx,vy = player:getLinearVelocity()
 		dx = vx
 		dy = -SPEED_Y
@@ -80,7 +90,7 @@ local function btnReleased(event)
 	player:play()
 
 	btnPressed = false
-	
+
 end
 
 ------------------------------------
@@ -91,7 +101,7 @@ local function leftPressed(event)
 		player:play()
 
 		btnPressed = true
-		
+
 		dx = -SPEED_X
 	end
 end
@@ -104,7 +114,7 @@ local function rightPressed(event)
 		player:play()
 
 		btnPressed = true
-		
+
 		dx = SPEED_X
 	end
 end
@@ -114,12 +124,12 @@ local function realPlayerCollision(self, event )
 ---------------------------------------------------------------------------------
 	-- see if object we collided with has a class (defined in LD)
 	local collisionClass = event.other.class
-	
+
 	if (string.len(collisionClass) > 0 ) then
 		print ('collision ' .. event.phase .. ' with object class',collisionClass,event.other.name)
 	end
-	
-	if ( event.phase == "began" ) then	
+
+	if ( event.phase == "began" ) then
 		-- if we collided with a star then remove it
 		if (collisionClass == 'Star') then
 			myLevel:removeLayerObject("FG",event.other.name)
@@ -145,17 +155,17 @@ local function onScrollFinished2()
 
 	-- set bounds for scrolling
 	myLevel.level:setCameraBounds(
-		(display.contentCenterX  ), 
+		(display.contentCenterX  ),
 		-(display.contentCenterY * 2),
 		(myLevel.level.canvasWidth - display.contentCenterX ),
-		(myLevel.level.canvasHeight - display.contentCenterY ) 
+		(myLevel.level.canvasHeight - display.contentCenterY )
 	)
 
 	-- enabled camera/object tracking
 	myLevel:trackEnabled(true)
-	
+
 	isActive=true
-	
+
 	-- call move each frame
 	Runtime:addEventListener( "enterFrame", gameLoop )
 
@@ -206,5 +216,3 @@ btnRight.onRelease = btnReleased
 btnLeft.onCancel = btnReleased
 btnRight.onCancel = btnReleased
 btnUp.onCancel = btnReleased
-
-
